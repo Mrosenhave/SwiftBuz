@@ -1,0 +1,17 @@
+:root {
+    /* Default (light mode) colors */
+    --background-color: #f2f2f7;
+    --text-color: black;
+  }
+  
+  @media (prefers-color-scheme: dark) {
+    :root {
+      /* Dark mode colors */
+      --background-color: #1c1c1e;
+      --text-color: white;
+    }
+  }
+body {
+    font-family: "SF Pro", "ui-sans-serif", "system-ui", "sans-serif", "Apple Color Emoji";
+    background-color: var(--background-color);
+}
